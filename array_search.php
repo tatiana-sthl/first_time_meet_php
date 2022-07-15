@@ -7,9 +7,9 @@ $users = [
 ];
 
 $positionMathieu = array_search('Mathieu Nebra', $users);
-echo '"Mathieu" se trouve en position ' . $positionMathieu . PHP_EOL;
+echo '"Mathieu" se trouve en position ' . $positionMathieu . '<br>';
 
 $positionLaurène = array_search('Laurène Castor', $users);
-echo '"Laurène" se trouve en position ' . $positionLaurène . PHP_EOL;
+echo '"Laurène" se trouve en position ' . $positionLaurène . '<br>';
 
 ?>

@@ -28,7 +28,7 @@ $recipes = [
 ];
 
 foreach ($recipes as $recipe) {
-    echo $recipe['title'] . ' contribué par : ' . $recipe['author'] . PHP_EOL;
+    echo $recipe['title'] . ' contribué par : ' . $recipe['author'] . '<br>';
 }
 
 ?>

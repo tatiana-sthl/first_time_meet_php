@@ -17,7 +17,7 @@
         <div id="container">
         <?php include('header.php'); ?>
             <h1>Pour me contacter</h1>
-            <form>
+            <form action="submit_contact.php" method="GET">
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" name="email" aria-describedby="email-help">
